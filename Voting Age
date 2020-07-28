@@ -1,0 +1,40 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+int age,num;
+
+cout<<"Enter the age of candidate: " <<endl;
+
+cin>>age;
+
+if(age > 18)
+
+{
+
+cout<<"Eligible to vote ";
+cout<<"Do you Belong To Gujarat?\n1(Yes) or 0(No)\n";
+cin>>num;
+if(num==1)
+{
+	cout<<"Your Voting Date 1/08";
+}
+else
+cout<<"Check your respective state's date for voting";
+}
+
+else
+
+{
+
+cout<<"Not eligible to vote" ;
+
+}
+
+return 0;
+
+}
